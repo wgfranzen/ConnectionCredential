@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project xmlns="http://maven.apache.org/DECORATION/1.8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 https://maven.apache.org/xsd/decoration-1.8.0.xsd"
+         name="Maven">
+    <bannerLeft>
+        <name>Maven</name>
+        <src>https://maven.apache.org/images/apache-maven-project.png</src>
+        <href>https://maven.apache.org/</href>
+    </bannerLeft>
+    <bannerRight>
+        <src>https://maven.apache.org/images/maven-small.gif</src>
+    </bannerRight>
+
+    <skin>
+        <groupId>org.apache.maven.skins</groupId>
+        <artifactId>maven-fluido-skin</artifactId>
+        <version>1.11.1</version>
+    </skin>
+
+    <body>
+        <links>
+            <item name="Apache" href="http://www.apache.org/"/>
+            <item name="Maven 2" href="https://maven.apache.org/"/>
+        </links>
+
+        <menu name="ConnectionCredential">
+            <item name="Introduction" href="index.html"/>
+            <item name="License" href="license.html"/>
+            <item name="Download" href="Download.html"/>
+        </menu>
+
+        <menu name="Related Information">
+            <item name="picocli" href="https://picocli.info/"/>
+            <item name="Google GSON"
+                  href="https://www.javadoc.io/doc/com.google.code.gson/gson/2.9.0/com.google.gson/module-summary.html"/>
+        </menu>
+
+        <menu ref="reports"/>
+
+    </body>
+</project>
