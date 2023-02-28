@@ -10,6 +10,7 @@
   <name>ConnectionCredential</name>
   <description>ConnectionCredential provides the means to retain application and user specific credentials for
     accessing a database via jdbc.</description>
+  <url>https://wgfranzen.github.io/ConnectionCredential/index.html</url>
 
   <developers>
     <developer>
