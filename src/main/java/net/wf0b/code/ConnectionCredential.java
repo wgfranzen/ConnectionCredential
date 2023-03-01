@@ -42,6 +42,7 @@ import java.util.concurrent.Callable;
  * <br> -x, --delete                      delete existing entry
  * </code>
  */
+// TODO add a listing function
 @CommandLine.Command(name = "ConnectionCredential", mixinStandardHelpOptions = true, version = "ConnectionCredential-0.1-Snapshot",
         description = "Maintains jdbc database connections for the user.")
 public class ConnectionCredential implements Callable<Integer> {

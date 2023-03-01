@@ -378,4 +378,6 @@ public class OperatingSystem {
         return DriverManager.getConnection(connectionString);
     }
 
+    // TODO Add a generic Derby Connection using DB Location
+    // TODO Consider adding certain properties
 }
